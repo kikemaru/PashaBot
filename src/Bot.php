@@ -4,22 +4,19 @@
  * Автор github: kikemaru
  */
 namespace Pavelbot;
+use Pavelbot\logic\Logic;
 use Pavelbot\Week;
 use Pavelbot\Student;
-use Pavelbot\traits\bot\SendMessage;
 use PDO;
 class Bot
 {
-    /**
-     * трейт для отправки сообщений
-     */
-    use SendMessage;
+
 
     /**
      * @var string
      * ключ api чат-бота
      */
-    private string $token = "token_telegram";
+    public string $token = "5710738680:AAGwEhq1y4f4VyF5dFK8O_j_LptRgrUtsno";
 
     /**
      * @var PDO
@@ -63,7 +60,7 @@ class Bot
 
 
 
-    public function __construct()
+    public function __construct($body = 0)
     {
         $week = new Week();
         $this->weekClass = $week;
@@ -75,6 +72,7 @@ class Bot
         $this->date = $week->getDate();
         $this->db = $db->getDb();
         $this->students = $student->getStudent();
+        $logic = new Logic($body, $this->token);
     }
 
 
@@ -87,6 +85,11 @@ class Bot
     {
         $student = $this->studentClass;
         return $student->regUser($regData);
+    }
+
+    public function getToken(): string
+    {
+        return $this->token;
     }
     
 

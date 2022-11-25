@@ -3,5 +3,5 @@
 
 function botAction()
 {
-    echo 111;
+
 }

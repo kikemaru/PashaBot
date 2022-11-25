@@ -1,9 +1,13 @@
 <?php
 
-namespace Pavelbot\traits\bot;
+namespace Pavelbot\classes\bot;
 
-trait SendMessage
+class SendMessage
 {
+
+    public function __construct()
+    {
+    }
 
     public function send($id, $message, $token, $keyboard = 0)
     {
