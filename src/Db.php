@@ -15,7 +15,7 @@ class Db
         /**
          * Подключение к базе данных
          */
-        $this->db = new PDO('mysql:host=localhost;dbname=a0741370_student;', 'a0741370_student', 'dunkelroman129');
+        $this->db = new PDO('mysql:host=localhost;dbname=имя_бд;', 'имя_пользователя', 'пароль');
     }
 
 

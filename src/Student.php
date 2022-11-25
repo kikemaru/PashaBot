@@ -32,27 +32,6 @@ class Student
     public function getStudent(): array
     {
         return array(
-            'Абдуллов' => array('eng' => 1, 'lab' => 2),
-            'Бигин' => array('eng' => 2, 'lab' => 1),
-            'Воробьев' => array('eng' => 1, 'lab' => 1),
-            'Галимова' => array('eng' => 2, 'lab' => 2),
-            'Галямшин' => array('eng' => 2, 'lab' => 2),
-            'Гильфанова' => array('eng' => 1, 'lab' => 1),
-            'Закиров' => array('eng' => 2, 'lab' => 1),
-            'Исмаилов' => array('eng' => 1, 'lab' => 1),
-            'Кулаков' => array('eng' => 2, 'lab' => 1),
-            'Мифтяков' => array('eng' => 1, 'lab' => 1),
-            'Мухамадияров' => array('eng' => 2, 'lab' => 2),
-            'Обухова' => array('eng' => 1, 'lab' => 2),
-            'Сафин' => array('eng' => 1, 'lab' => 2),
-            'Сафронов' => array('eng' => 2, 'lab' => 1),
-            'Спиридонов' => array('eng' => 2, 'lab' => 2),
-            'Стрелкова' => array('eng' => 1, 'lab' => 2),
-            'Фаткуллин' => array('eng' => 1, 'lab' => 2),
-            'Хабибуллин' => array('eng' => 2, 'lab' => 1),
-            'Хамитова' => array('eng' => 2, 'lab' => 1),
-            'Шайхутдинова' => array('eng' => 1, 'lab' => 2),
-            'Швыркалов' => array('eng' => 2, 'lab' => 2),
             'Роман' => array('eng' => 2, 'lab' => 2)
         );
     }

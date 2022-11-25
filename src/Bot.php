@@ -16,7 +16,7 @@ class Bot
      * @var string
      * ключ api чат-бота
      */
-    public string $token = "5710738680:AAGwEhq1y4f4VyF5dFK8O_j_LptRgrUtsno";
+    public string $token = "tg_token";
 
     /**
      * @var PDO

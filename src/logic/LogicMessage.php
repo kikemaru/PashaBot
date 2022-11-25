@@ -20,8 +20,6 @@ class LogicMessage
         $text = "Добро пожаловать!";
         $keyboard = 'DEL';
         $this->message->send($uid, $text, $this->token, $keyboard);
-        //$sendToTelegram = fopen("https://api.telegram.org/bot$this->token/sendMessage?chat_id=893046736&parse_mode=html&text=" . urlencode($text), "r");
-
 
     }
 

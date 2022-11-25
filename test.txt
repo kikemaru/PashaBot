@@ -1,2 +1,0 @@
-{"update_id":122180848,
-"message":{"message_id":92,"from":{"id":893046736,"is_bot":false,"first_name":"Duirole","username":"duirole","language_code":"ru"},"chat":{"id":893046736,"first_name":"Duirole","username":"duirole","type":"private"},"date":1669385752,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
